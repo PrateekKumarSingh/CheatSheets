@@ -1,2 +1,2 @@
 # CheatSheets
-CheatSheets for Powershell, VSCode and more
+CheatSheets for Powershell, Exchange, Sharepoint, Lync, RegEx, VSCode and more
