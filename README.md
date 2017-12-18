@@ -4,5 +4,5 @@ CheatSheets compilation for Powershell, Python, Exchange, Sharepoint, Lync, RegE
 # Download only Powershell specific CheatSheets with below oneliner - 
 
 ```PowerShell
-(iwr "https://github.com/PrateekKumarSingh/CheatSheets/PowerShell").Links | ?{$_.title -Like "*Powershell*"} | %{iwr "http://github.com$($_.href)?raw=true" -OutFile $_.title -Verbose}
+(iwr 'https://goo.gl/J76Um4').links | ?{$_.title -Like "*Powershell*"} | %{iwr "http://github.com$($_.href)?raw=true" -OutFile $_.title -Verbose}
 ```
